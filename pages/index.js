@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Hero from '../components/hero'
 import Slider from '../components/slider'
 import {SliderData} from '../components/sliderData'
+import Instagram from '../components/instagram'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         </Head>
         <Hero heading='Capture Photography' message='I capture moments in nature and keep them alive.'/>
         <Slider slides={SliderData} />
+        <Instagram />
       </div>
     </>
   )
