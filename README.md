@@ -41,3 +41,5 @@ Dove definisco il contenuto di queste props è dentro il tag `<Hero />`, quindi 
   ```js
   style={{ backgroundColor: `${nomedellousestate}`}}
   ```
+
+Fondamentalmente questo esercizio è di stile più che di altro onestamente.
